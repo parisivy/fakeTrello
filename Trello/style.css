@@ -1,0 +1,351 @@
+/*/ FULL WEB EXPERIENCE /*/
+
+@media screen and (min-device-width: 900px) {
+
+/*/ GENERAL /*/
+
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0px;
+	}
+
+		h1 {
+			font-size: 36px;
+			line-height: 1.2em;
+			margin: 0px;			
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.44em;
+			font-weight: 100;			
+		}
+
+
+			.black_font {
+				color: #4d4d4d;
+			}
+
+			.white_font {
+				color: #fff;
+			}
+
+			.make_bold {
+				font-weight: bold;
+			}
+
+/*/ INTRO /*/
+
+	.intro {
+		background-color: #fff;
+		text-align: center;
+		padding: 70px 0px;
+	}
+
+		.intro_description {
+			width: 44%;
+			margin: 0px auto 0px auto;
+		}
+
+			#trello_logo {
+				height: 80px;
+				margin-bottom: 2em;
+			}
+
+			.intro_description p {
+				width: 71%;
+				margin-left: auto;
+				margin-right: auto;
+
+			}
+
+			.sign_up_button {
+				background: linear-gradient(to bottom, #61bd4f 0, #5aac44 100%);
+   				border:none;
+   				border-radius: .3em;
+   				box-shadow: 0 2px 0 #4d4d4d;
+   				padding: .6em 1.3em;
+   				color: #fff;
+   				font-size: 20px;
+   				font-weight: bold;
+   				cursor: pointer;
+   			}
+
+   			.intro_description a:link {
+				color:#999;
+				text-decoration: underline;
+				display: block;
+				padding: 0em 1em 2em;
+			}
+
+			.intro_description a:hover {
+				color:#265773;
+				text-decoration: underline;
+			}
+
+
+/*/ PRODUCT /*/
+
+	.product {
+		background-color: #0079bf;
+		text-align: center;
+		padding: 70px 0px;
+	}
+
+		.pd_one, .pd_three {
+			width: 30%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+		}
+
+		.pd_two img {
+			width: 60%;
+			padding: 20px 0px;
+		}
+
+
+/*/ FEATURES /*/
+
+	.features {
+		background-color: #fff;
+		text-align: center;
+		padding: 70px 0px 0px 0px;
+		position: relative;
+	}
+
+		.fd_one {
+			width: 30%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			.transparent_button  {
+				background: transparent;
+   				border:1px solid #5e98ba;
+   				border-radius: .3em;
+   				padding: .6em 1.3em;
+   				color: #5e98ba;
+   				font-size: 20px;
+   				cursor: pointer;
+   				margin-top: 10px;
+			}
+
+		.fd_two {
+			position: relative;
+			bottom: -5px;
+			margin-top: 40px;
+		}
+
+
+/*/ DOWNLOAD /*/
+
+	.download {
+		background-color: #e4f0f6;
+		text-align: left;
+		padding: 70px 0px;
+		position: relative;
+	}
+
+		.download_description {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;			
+		}
+
+			.dd_one {
+				width: 55%;				
+			}
+				
+				.dd_two img {
+					height: 54px;
+					margin-right: 18px;					
+				}
+
+				.dd_two button {
+					position: relative;
+					bottom: 20px;			
+				}
+
+			.dd_three {
+				width: 30%;
+				position: absolute;
+				bottom: 75px;
+				right: 147px;
+											
+			}
+
+				.dd_three img {
+					height: 200px;										
+			}
+
+/*/ POWERUPS /*/
+
+	.powerups {
+		background-color: #fff;
+		text-align: left;
+		padding: 70px 0px;
+		position: relative;
+	}
+
+		.powerups_description {
+			width: 64%;
+			margin-left: 420px;
+			margin-right: auto;			
+		}
+
+			.powd_one {
+				width: 55%;				
+			}
+				
+				
+			.powd_two {
+				width: 30%;
+				position: absolute;
+				bottom: 50px;
+				right: 147px;											
+			}
+
+				.powd_two img {
+					height: 200px;										
+			}
+		
+/*/ PROMO /*/
+
+	.promo {
+		background-color: #0079bf;
+		text-align: center;
+		padding: 70px 0px;
+	}
+
+		.prd_two nav {
+			width: 70%;
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.prd_two a {			
+			margin: 0px 10px;
+		}
+
+/*/ BUSINESS /*/
+
+	.business {
+		background-color: #42548e;
+		text-align: left;
+		padding: 70px 0px;
+		position: relative;
+	}
+
+		.business_description {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			.bd_one {
+				position: absolute;
+				bottom: 100px;
+				left: 350px
+			}
+
+			.bd_one img {
+				height: 120px;
+			}
+
+			.bd_two {
+				width: 50%;
+				margin-left: 300px;
+				margin-right: auto;
+			}
+
+				.bd_two button{
+					background: transparent;
+	   				border:1px solid #fff;
+	   				border-radius: .3em;
+	   				padding: .6em 1.3em;
+	   				color: #fff;
+	   				font-size: 20px;
+	   				cursor: pointer;
+	   				margin-top: 10px;
+				}
+
+
+/*/ PITCH /*/
+
+	.pitch {
+		background-color: #fff;
+		text-align: center;
+		padding: 70px 0px;
+		position: relative;
+	}
+
+		.pitch_description {
+			width: 28%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+/*/ RANDOM /*/
+
+	.random {
+		background-color: #0079bf;
+		text-align: left;
+		padding: 70px 0px;
+		position: relative;
+	}
+
+		.random_description {
+			width: 40%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			.rd_one {
+				position: absolute;
+				bottom: 30px;
+				left: 540px;
+			}
+
+				.rd_one img {
+					width: 130px;
+				}
+
+			.rd_two {
+				width: 50%;
+				margin-left: 220px;
+				margin-right: auto;
+			}
+
+/*/ FOOTER /*/
+	
+	footer {
+		background-color: #fff;
+		text-align: center;
+		padding: 50px 0px;
+		position: relative;
+				
+	}
+
+		footer a:link {
+			font-size: 14px;
+			color:#999;
+			text-decoration: underline;
+			display: inline-block;
+			margin: 0px 5px;
+		}
+
+		footer a:hover {
+			color:#265773;
+			text-decoration: underline;
+		}
+
+		footer p {
+			font-size: 14px;
+			color:#999;
+		}
+
+}
+
