@@ -21,6 +21,9 @@
 			font-weight: 100;			
 		}
 
+			.none {
+				display: none;
+			}
 
 			.black_font {
 				color: #4d4d4d;
